@@ -1,0 +1,561 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Front-end ASM</title>
+    <link rel="stylesheet" href="./assets/css/main.css">
+    <link rel="stylesheet" href="./assets/css/base.css">
+    <link rel="stylesheet" href="./assets/css/grid.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+        integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA=="
+        crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css">
+</head>
+
+
+<body>
+    <div class="app">
+        <div class="header">
+            <div class="top-header">
+                <div class="top-header__wrapper">
+                    <ul class="top-header__list">
+                        <li
+                            class="top-header__item top-header__item--separate top-header__item--pointer header__item--has-qr">
+                            Vào cửa hàng
+                            trên ứng dụng MyOhui
+                            <div class="header__qr">
+                                <a href="#" class="header__qr-link">
+                                    <img src="./assets/img/qr.png" alt="qr" class="header__qr-img">
+                                </a>
+
+                                <div class="header__qr-apps">
+                                    <a href="
+                                    #" class="header__qr-apps-link">
+                                        <img src="./assets/img/google-play.png" alt="google play store"
+                                            class="header__qr-apps-img"></a>
+
+                                    <a href="
+                                            #" class="header__qr-apps-link">
+                                        <img src="./assets/img/applay-store.png" alt="google play store"
+                                            class="header__qr-apps-img"></a>
+                                </div>
+                            </div>
+                            <!-- end header QR -->
+                        </li>
+                        <li class="top-header__item top-header__item--separate">
+                            <i class="fas fa-phone-alt top-header__item-icon top-header__item--pointer"></i>
+                            <a href="#" class="top-header__item-link">0965866851</a>
+                        </li>
+                        <li class="top-header__item">
+                            <i class="fas fa-envelope top-header__item-icon top-header__item--pointer"></i>
+                            <a href="#" class="top-header__item-link"> ohuivina.com@gmail.com</a>
+                        </li>
+                    </ul>
+                    <ul class="top-header__list">
+                        <li class="top-header__item top-header__item--notify">
+                            <a href="" class="top-header__link">
+                                <i class="far fa-bell top-header__item-icon top-header__item-icon--large" hover=""></i>
+                                <span class="top-header__item-content" hover="">
+                                    Tin tức
+                                </span>
+                            </a>
+                            <div class="header__notify triangle">
+
+                                <h4 class="header__notify-heading">
+                                    Tin tức mới nhất
+                                </h4>
+                                <ul class="header__notify-list">
+                                    <a class="header__notify-item" href="#">
+                                        <div style="background-image: url(./assets/img/notify1.png)"
+                                            class="header__notify-item-img"></div>
+                                        <div class="header__notify-item-notify">
+                                            <span>
+                                                Tặng ngay combo 5 gói mặt nạ thải độc Su:m37
+                                            </span>
+                                            <span>
+                                                Khuyến mại siêu hot:
+                                            </span>
+                                        </div>
+                                    </a>
+                                    <a class="header__notify-item" href="#">
+                                        <div style="background-image: url(https://img.abaha.vn/photos/resized/200x120/83-1590399520-myphamohui-lgvina.png)"
+                                            class="header__notify-item-img"></div>
+                                        <div class="header__notify-item-notify">
+                                            <span class="header__notify-item-notify-heading">
+                                                Tặng ngay combo 5 gói mặt nạ thải độc Su:m37
+                                            </span>
+                                            <span class="header__notify-item-notify-description">
+                                                Khuyến mại siêu hot:
+                                            </span>
+                                        </div>
+                                    </a>
+                                    <a class="header__notify-item" href="#">
+                                        <div style="background-image: url(./assets/img/notify1.png)"
+                                            class="header__notify-item-img"></div>
+                                        <div class="header__notify-item-notify">
+                                            <span class="header__notify-item-notify-heading">
+                                                Tặng ngay combo 5 gói mặt nạ thải độc Su:m37
+                                            </span>
+                                            <span class="header__notify-item-notify-description">
+                                                Khuyến mại siêu hot:
+                                            </span>
+                                        </div>
+                                    </a>
+                                    <a class="header__notify-item" href="#">
+                                        <div style="background-image: url(https://img.abaha.vn/photos/resized/200x120/83-1590399520-myphamohui-lgvina.png)"
+                                            class="header__notify-item-img"></div>
+                                        <div class="header__notify-item-notify">
+                                            <span class="header__notify-item-notify-heading">
+                                                Tặng ngay combo 5 gói mặt nạ thải độc Su:m37
+                                            </span>
+                                            <span class="header__notify-item-notify-description">
+                                                Khuyến mại siêu hot:
+                                            </span>
+                                        </div>
+                                    </a>
+                                    <a class="header__notify-item" href="#">
+                                        <div style="background-image: url(./assets/img/notify1.png)"
+                                            class="header__notify-item-img"></div>
+                                        <div class="header__notify-item-notify">
+                                            <span class="header__notify-item-notify-heading">
+                                                Tặng ngay combo 5 gói mặt nạ thải độc Su:m37
+                                            </span>
+                                            <span class="header__notify-item-notify-description">
+                                                Khuyến mại siêu hot:
+                                            </span>
+                                        </div>
+                                    </a>
+                                    <a class="header__notify-item" href="#">
+                                        <div style="background-image: url(https://img.abaha.vn/photos/resized/200x120/83-1590399520-myphamohui-lgvina.png)"
+                                            class="header__notify-item-img"></div>
+                                        <div class="header__notify-item-notify">
+                                            <span class="header__notify-item-notify-heading">
+                                                Tặng ngay combo 5 gói mặt nạ thải độc Su:m37
+                                            </span>
+                                            <span class="header__notify-item-notify-description">
+                                                Khuyến mại siêu hot:
+                                            </span>
+                                        </div>
+                                    </a>
+                                </ul>
+                                <a href="xemtatcar" class="header__notify-btn">
+                                    Xem tất cả
+                                </a>
+                            </div>
+                            <!-- Notify -->
+                        </li>
+                        <li class="top-header__item">
+                            <a href="" class="top-header__link">
+                                <i class="far fa-question-circle top-header__item-icon top-header__item-icon--large"
+                                    hover=""></i>
+                                <span class="top-header__item-content" hover="">
+                                    Liên hệ
+                                </span>
+                            </a>
+                        </li>
+                        <li
+                            class="top-header__item top-header__item--bold  top-header__item-register-separate top-header__item--pointer">
+                            Đăng ký
+                        </li>
+                        <li class="top-header__item top-header__item--bold top-header__item--pointer">
+                            Đăng nhập
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <!-- End top header -->
+            <div class="bottom-header">
+                <div class="bottom-header__wrapper">
+                    <a href="logo" class="header__logo">
+                        <img src="./assets/img/logo.png" alt="logo" class="header__logo-img">
+                    </a>
+                    <div class="header__search">
+                        <input type="text" class="header__search-input" placeholder="Tìm kiếm...">
+                        <div class="header__search-history">
+                            <h4 class="header__search-history-heading">
+                                Lịch sử tìm kiếm
+                            </h4>
+                            <ul class="header__search-history-list">
+                                <a class="header__search-history-item" href="#">Set kem chống nắng Su:m37</a>
+                                <a class="header__search-history-item" href="#">Set dưỡng trắng trị nám Whoo</a>
+                                <a class="header__search-history-item" href="#">Set kem chống nắng thế hệ mới</a>
+                            </ul>
+                        </div>
+                        <div class="header__search-option">
+                            <span>
+                                Cửa hàng
+                            </span>
+                            <i class="fas fa-check header__search-icon"></i>
+                            <div class="header__search-option-hidden">
+                                <span>Cửa hàng</span>
+                                <i class="fas fa-check"></i>
+                            </div>
+                        </div>
+                        <div class="header__search-btn">
+                            <i class="fas fa-search header__search-btn-icon"></i>
+                        </div>
+                    </div>
+                    <div class="header__cart">
+                        <div class="header__cart-font">
+                            <i class="fas fa-shopping-cart header__cart-icon">
+                                <div class="header__cart-number">
+                                    <span>
+                                        1
+                                    </span>
+                                </div>
+                            </i>
+                            <div class="header__cart-content triangle">
+                                <h4 class="header__cart-heading">Sản phẩm đã thêm</h4>
+                                <ul class="header__cart-list">
+                                    <li class="header__cart-item">
+                                        <img src="./assets/img/cart-item1.png" alt="" class="header__cart-item-img">
+                                        <div class="header__cart-item-wrapper">
+                                            <div class="header__cart-item-information">
+                                                <span class="header__cart-item-name">
+                                                    Bộ cấp Nước Se Khít Lỗ Chân Lông Sum37 Water-full Set 5p
+                                                </span>
+                                                <div class="header__cart-item-information-right">
+                                                    <span class="header__cart-item-price">
+                                                        450.000đ
+                                                    </span>
+                                                    <span class="header__cart-item-multiply">
+                                                        x
+                                                    </span>
+                                                    <span class="header__cart-item-amount">
+                                                        1
+                                                    </span>
+                                                </div>
+                                            </div>
+                                            <div class="header__cart-item-delete-btn">
+                                                <span>
+                                                    Xoá
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="header__cart-item">
+                                        <img src="./assets/img/cart-item1.png" alt="" class="header__cart-item-img">
+                                        <div class="header__cart-item-wrapper">
+                                            <div class="header__cart-item-information">
+                                                <span class="header__cart-item-name">
+                                                    Bộ cấp Nước Se Khít Lỗ Chân Lông Sum37 Water-full Set 5p
+                                                </span>
+                                                <div class="header__cart-item-information-right">
+                                                    <span class="header__cart-item-price">
+                                                        450.000đ
+                                                    </span>
+                                                    <span class="header__cart-item-multiply">
+                                                        x
+                                                    </span>
+                                                    <span class="header__cart-item-amount">
+                                                        1
+                                                    </span>
+                                                </div>
+                                            </div>
+                                            <div class="header__cart-item-delete-btn">
+                                                <span>
+                                                    Xoá
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="header__cart-item">
+                                        <img src="./assets/img/cart-item1.png" alt="" class="header__cart-item-img">
+                                        <div class="header__cart-item-wrapper">
+                                            <div class="header__cart-item-information">
+                                                <span class="header__cart-item-name">
+                                                    Bộ cấp Nước Se Khít Lỗ Chân Lông Sum37 Water-full Set 5p
+                                                </span>
+                                                <div class="header__cart-item-information-right">
+                                                    <span class="header__cart-item-price">
+                                                        450.000đ
+                                                    </span>
+                                                    <span class="header__cart-item-multiply">
+                                                        x
+                                                    </span>
+                                                    <span class="header__cart-item-amount">
+                                                        1
+                                                    </span>
+                                                </div>
+                                            </div>
+                                            <div class="header__cart-item-delete-btn">
+                                                <span>
+                                                    Xoá
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="header__cart-item">
+                                        <img src="./assets/img/cart-item1.png" alt="" class="header__cart-item-img">
+                                        <div class="header__cart-item-wrapper">
+                                            <div class="header__cart-item-information">
+                                                <span class="header__cart-item-name">
+                                                    Bộ cấp Nước Se Khít Lỗ Chân Lông Sum37 Water-full Set 5p
+                                                </span>
+                                                <div class="header__cart-item-information-right">
+                                                    <span class="header__cart-item-price">
+                                                        450.000đ
+                                                    </span>
+                                                    <span class="header__cart-item-multiply">
+                                                        x
+                                                    </span>
+                                                    <span class="header__cart-item-amount">
+                                                        1
+                                                    </span>
+                                                </div>
+                                            </div>
+                                            <div class="header__cart-item-delete-btn">
+                                                <span>
+                                                    Xoá
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="header__cart-item ">
+                                        <img src="./assets/img/cart-item1.png" alt="" class="header__cart-item-img">
+                                        <div class="header__cart-item-wrapper">
+                                            <div class="header__cart-item-information">
+                                                <span class="header__cart-item-name">
+                                                    Bộ cấp Nước Se Khít Lỗ Chân Lông Sum37 Water-full Set 5p
+                                                </span>
+                                                <div class="header__cart-item-information-right">
+                                                    <span class="header__cart-item-price">
+                                                        450.000đ
+                                                    </span>
+                                                    <span class="header__cart-item-multiply">
+                                                        x
+                                                    </span>
+                                                    <span class="header__cart-item-amount">
+                                                        1
+                                                    </span>
+                                                </div>
+                                            </div>
+                                            <div class="header__cart-item-delete-btn">
+                                                <span>
+                                                    Xoá
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </li>
+                                </ul>
+                                <div class="header__cart-info">
+                                    <div class="header__cart-info-list">
+                                        <span>
+                                            Tổng tiền
+                                        </span>
+                                        <span>
+                                            450.000đ
+                                        </span>
+                                    </div>
+                                    <div class="header__cart-info-list">
+                                        <span>
+                                            Ví tích điểm
+                                        </span>
+                                        <span>
+                                            +450 điểm
+                                        </span>
+                                    </div>
+                                </div>
+                                <!-- end header cart bottom -->
+                                <a class=" header__cart-btn" href="#">
+                                    <span class="btn-primary">
+                                        Xem giỏ hàng
+                                    </span>
+                                </a>
+                            </div>
+                            <!-- end header cart - content -->
+                        </div>
+                    </div>
+                    <!-- end header-cart -->
+                </div>
+            </div>
+            <!-- End bottom header -->
+        </div>
+        <!-- end header -->
+        <div class="body">
+            <div class="grid wide">
+                <div class="wrapper row">
+                    <div class="col l-2 c-0 m-0">
+                        <div class="category">
+                            <h4 class="category__heading">
+                                DANH MỤC
+                            </h4>
+                            <ul class="category__list">
+                                <li class="category__item">
+                                    <a class="category__item-link" href="">
+                                        Tất cả sản phẩm
+                                    </a>
+                                </li>
+                                <li class="category__item has-child">
+                                    <a href="" class="category__item-link">
+                                        Ohui
+                                        <i class="category__item-icon fas fa-chevron-right"></i>
+                                    </a>
+                                    <ul class="category__list-child" style="position: fixed;top :258px ; left : 345px;">
+                                        <li class="category__item-child">
+                                            <a href="" class="category__item-child-link">
+                                                Ohui Thefirst Tái Sinh 
+                                            </a>
+                                        </li>
+                                        <li class="category__item-child">
+                                            <a href="" class="category__item-child-link"> Ohui Dưỡng Trắng</a>
+                                        </li>
+                                        <li class="category__item-child">
+                                            <a href="" class="category__item-child-link">Ohui Prime Advancer</a>
+                                        </li>
+                                        <li class="category__item-child">
+                                            <a href="" class="category__item-child-link">Ohui Dưỡng Ẩm</a>
+                                        </li>
+                                        <li class="category__item-child">
+                                            <a href="" class="category__item-child-link">Ohui Chống Lão Hóa</a>
+                                        </li>
+                                        <li class="category__item-child">
+                                            <a href="" class="category__item-child-link">Ohui Make Up</a>
+                                        </li>
+                                        <li class="category__item-child">
+                                            <a href="" class="category__item-child-link">Ohui Chống Nắng</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="category__item has-child">
+                                    <a href="" class="category__item-link">
+                                        Whoo
+                                        <i class="category__item-icon fas fa-chevron-right"></i>
+                                    </a>
+                                    <ul class="category__list-child" style="position: fixed;top : 294px ; left :345px ;">
+                                        <li class="category__item-child">
+                                            <a href="" class="category__item-child-link">
+                                                Whoo Bichup
+                                            </a>
+                                        </li>
+                                        <li class="category__item-child">
+                                            <a href="" class="category__item-child-link"> Whoo Dưỡng Ẩm</a>
+                                        </li>
+                                        <li class="category__item-child">
+                                            <a href="" class="category__item-child-link">Whoo Dưỡng Trắng Trị Nám</a>
+                                        </li>
+                                        <li class="category__item-child">
+                                            <a href="" class="category__item-child-link">Whoo cấp nước chống oxy hóa</a>
+                                        </li>
+                                        <li class="category__item-child">
+                                            <a href="" class="category__item-child-link">Whoo Make Up</a>
+                                        </li>
+                                        <li class="category__item-child">
+                                            <a href="" class="category__item-child-link">Whoo Tái Sinh</a>
+                                        </li>
+                                        <li class="category__item-child">
+                                            <a href="" class="category__item-child-link">Whoo Chống Nắng</a>
+                                        </li>
+                                        <li class="category__item-child">
+                                            <a href="" class="category__item-child-link">Whoo Spa</a>
+                                        </li>
+                                        <li class="category__item-child">
+                                            <a href="" class="category__item-child-link">Whoo Chống Lão Hóa</a>
+                                        </li>
+                                        <li class="category__item-child">
+                                            <a href="" class="category__item-child-link">Whoo Hoàn Lưu Cao</a>
+                                        </li>
+                                    </ul> 
+                                </li>
+                                <li class="category__item has-child">
+                                    <a href="" class="category__item-link">
+                                        Su:m37
+                                        <i class="category__item-icon fas fa-chevron-right"></i>
+                                    </a>
+                                    <ul class="category__list-child" style="position: fixed;top :330px ; left :345px ;">
+                                        <li class="category__item-child">
+                                            <a href="" class="category__item-child-link">
+                                                Su:m37 Tái Sinh 
+                                            </a>
+                                        </li>
+                                        <li class="category__item-child">
+                                            <a href="" class="category__item-child-link"> Sm:m37 Chống Lão Hóa </a>
+                                        </li>
+                                        <li class="category__item-child">
+                                            <a href="" class="category__item-child-link">Sm:m37 Dưỡng Trắng </a>
+                                        </li>
+                                        <li class="category__item-child">
+                                            <a href="" class="category__item-child-link">Su:m37 cấp ẩm water full </a>
+                                        </li>
+                                        <li class="category__item-child">
+                                            <a href="" class="category__item-child-link">Su:m37  Chống Nắng Sun Away</a>
+                                        </li>
+                                        <li class="category__item-child">
+                                            <a href="" class="category__item-child-link">Su:m37 Make Up</a>
+                                        </li>
+                                        <li class="category__item-child">
+                                            <a href="" class="category__item-child-link">Su:m37 Làm Sạch </a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="category__item has-child">
+                                    <a href="" class="category__item-link">
+                                        Set mini
+                                        <i class="category__item-icon fas fa-chevron-right"></i>
+                                    </a>
+                                    <ul class="category__list-child" style="position: fixed;top : 364px; left : 345px;">
+                                        <li class="category__item-child">
+                                            <a href="" class="category__item-child-link">
+                                                Set Ohui Mini
+                                            </a>
+                                        </li>
+                                        <li class="category__item-child">
+                                            <a href="" class="category__item-child-link"> Set Whoo Mini</a>
+                                        </li>
+                                        <li class="category__item-child">
+                                            <a href="" class="category__item-child-link">Set Su:m37 Mini</a>
+                                        </li>
+                                       
+                                    </ul>
+
+                                </li>
+                                <li class="category__item">
+                                    <a href="" class="category__item-link">
+                                        Thực phẩm chức năng
+                                    </a>
+                                </li>
+                                <li class="category__item">
+                                    <a href="" class="category__item-link"> Dịch vụ
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+            <!-- Category -->
+            <div class="test">
+
+            </div>
+        </div>
+        <!-- end body -->
+        <div class="footer">
+
+        </div>
+        <!-- end footer -->
+    </div>
+
+    <script src=" https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"
+        integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg=="
+        crossorigin="anonymous"></script>
+    <script>
+
+        $('.content').slick({
+            dots: true,
+            infinite: true,
+            speed: 300,
+            slidesToShow: 1,
+            adaptiveHeight: true
+        });
+
+    </script>
+</body>
+
+</html>
