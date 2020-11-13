@@ -14,17 +14,19 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css">
+    <link rel="stylesheet" href="/assets/css/responsive.css">
 </head>
 
 
 <body>
     <div class="app">
-        <div class="header">
+        <div class="header ">
             <div class="top-header">
-                <div class="top-header__wrapper">
-                    <ul class="top-header__list">
-                        <li
-                            class="top-header__item top-header__item--separate top-header__item--pointer header__item--has-qr">
+                
+                   <div class="top-header__wrapper container">
+                    <ul class="top-header__list " >
+                        <li 
+                            class="sm-hidden m-hidden top-header__item top-header__item--separate top-header__item--pointer header__item--has-qr">
                             Vào cửa hàng
                             trên ứng dụng MyOhui
                             <div class="header__qr">
@@ -55,7 +57,7 @@
                             <a href="#" class="top-header__item-link"> ohuivina.com@gmail.com</a>
                         </li>
                     </ul>
-                    <ul class="top-header__list">
+                    <ul class="top-header__list sm-hidden m-hidden">
                         <li class="top-header__item top-header__item--notify">
                             <a href="" class="top-header__link">
                                 <i class="far fa-bell top-header__item-icon top-header__item-icon--large" hover=""></i>
@@ -165,7 +167,7 @@
                             Đăng nhập
                         </li>
                     </ul>
-                </div>
+                   </div>
             </div>
             <!-- End top header -->
             <div class="bottom-header">
@@ -377,158 +379,186 @@
         </div>
         <!-- end header -->
         <div class="body">
-            <div class="grid wide">
-                <div class="wrapper row">
-                    <div class="col l-2 c-0 m-0">
-                        <div class="category">
-                            <h4 class="category__heading">
-                                DANH MỤC
-                            </h4>
-                            <ul class="category__list">
-                                <li class="category__item">
-                                    <a class="category__item-link" href="">
-                                        Tất cả sản phẩm
-                                    </a>
-                                </li>
-                                <li class="category__item has-child">
-                                    <a href="" class="category__item-link">
-                                        Ohui
-                                        <i class="category__item-icon fas fa-chevron-right"></i>
-                                    </a>
-                                    <ul class="category__list-child" style="position: fixed;top :258px ; left : 345px;">
-                                        <li class="category__item-child">
-                                            <a href="" class="category__item-child-link">
-                                                Ohui Thefirst Tái Sinh 
-                                            </a>
-                                        </li>
-                                        <li class="category__item-child">
-                                            <a href="" class="category__item-child-link"> Ohui Dưỡng Trắng</a>
-                                        </li>
-                                        <li class="category__item-child">
-                                            <a href="" class="category__item-child-link">Ohui Prime Advancer</a>
-                                        </li>
-                                        <li class="category__item-child">
-                                            <a href="" class="category__item-child-link">Ohui Dưỡng Ẩm</a>
-                                        </li>
-                                        <li class="category__item-child">
-                                            <a href="" class="category__item-child-link">Ohui Chống Lão Hóa</a>
-                                        </li>
-                                        <li class="category__item-child">
-                                            <a href="" class="category__item-child-link">Ohui Make Up</a>
-                                        </li>
-                                        <li class="category__item-child">
-                                            <a href="" class="category__item-child-link">Ohui Chống Nắng</a>
-                                        </li>
-                                    </ul>
-                                </li>
-                                <li class="category__item has-child">
-                                    <a href="" class="category__item-link">
-                                        Whoo
-                                        <i class="category__item-icon fas fa-chevron-right"></i>
-                                    </a>
-                                    <ul class="category__list-child" style="position: fixed;top : 294px ; left :345px ;">
-                                        <li class="category__item-child">
-                                            <a href="" class="category__item-child-link">
-                                                Whoo Bichup
-                                            </a>
-                                        </li>
-                                        <li class="category__item-child">
-                                            <a href="" class="category__item-child-link"> Whoo Dưỡng Ẩm</a>
-                                        </li>
-                                        <li class="category__item-child">
-                                            <a href="" class="category__item-child-link">Whoo Dưỡng Trắng Trị Nám</a>
-                                        </li>
-                                        <li class="category__item-child">
-                                            <a href="" class="category__item-child-link">Whoo cấp nước chống oxy hóa</a>
-                                        </li>
-                                        <li class="category__item-child">
-                                            <a href="" class="category__item-child-link">Whoo Make Up</a>
-                                        </li>
-                                        <li class="category__item-child">
-                                            <a href="" class="category__item-child-link">Whoo Tái Sinh</a>
-                                        </li>
-                                        <li class="category__item-child">
-                                            <a href="" class="category__item-child-link">Whoo Chống Nắng</a>
-                                        </li>
-                                        <li class="category__item-child">
-                                            <a href="" class="category__item-child-link">Whoo Spa</a>
-                                        </li>
-                                        <li class="category__item-child">
-                                            <a href="" class="category__item-child-link">Whoo Chống Lão Hóa</a>
-                                        </li>
-                                        <li class="category__item-child">
-                                            <a href="" class="category__item-child-link">Whoo Hoàn Lưu Cao</a>
-                                        </li>
-                                    </ul> 
-                                </li>
-                                <li class="category__item has-child">
-                                    <a href="" class="category__item-link">
-                                        Su:m37
-                                        <i class="category__item-icon fas fa-chevron-right"></i>
-                                    </a>
-                                    <ul class="category__list-child" style="position: fixed;top :330px ; left :345px ;">
-                                        <li class="category__item-child">
-                                            <a href="" class="category__item-child-link">
-                                                Su:m37 Tái Sinh 
-                                            </a>
-                                        </li>
-                                        <li class="category__item-child">
-                                            <a href="" class="category__item-child-link"> Sm:m37 Chống Lão Hóa </a>
-                                        </li>
-                                        <li class="category__item-child">
-                                            <a href="" class="category__item-child-link">Sm:m37 Dưỡng Trắng </a>
-                                        </li>
-                                        <li class="category__item-child">
-                                            <a href="" class="category__item-child-link">Su:m37 cấp ẩm water full </a>
-                                        </li>
-                                        <li class="category__item-child">
-                                            <a href="" class="category__item-child-link">Su:m37  Chống Nắng Sun Away</a>
-                                        </li>
-                                        <li class="category__item-child">
-                                            <a href="" class="category__item-child-link">Su:m37 Make Up</a>
-                                        </li>
-                                        <li class="category__item-child">
-                                            <a href="" class="category__item-child-link">Su:m37 Làm Sạch </a>
-                                        </li>
-                                    </ul>
-                                </li>
-                                <li class="category__item has-child">
-                                    <a href="" class="category__item-link">
-                                        Set mini
-                                        <i class="category__item-icon fas fa-chevron-right"></i>
-                                    </a>
-                                    <ul class="category__list-child" style="position: fixed;top : 364px; left : 345px;">
-                                        <li class="category__item-child">
-                                            <a href="" class="category__item-child-link">
-                                                Set Ohui Mini
-                                            </a>
-                                        </li>
-                                        <li class="category__item-child">
-                                            <a href="" class="category__item-child-link"> Set Whoo Mini</a>
-                                        </li>
-                                        <li class="category__item-child">
-                                            <a href="" class="category__item-child-link">Set Su:m37 Mini</a>
-                                        </li>
-                                       
-                                    </ul>
-
-                                </li>
-                                <li class="category__item">
-                                    <a href="" class="category__item-link">
-                                        Thực phẩm chức năng
-                                    </a>
-                                </li>
-                                <li class="category__item">
-                                    <a href="" class="category__item-link"> Dịch vụ
-                                    </a>
-                                </li>
-                            </ul>
+            <div class="body-wrapper">
+                <div class="grid wide">
+                    <div class="row no-gutter ">
+                        <div class=" col l-2 m-0 c-0 ">
+                            <div class="category-section">
+                                <h4 class="category__heading">
+                                    DANH MỤC
+                                </h4>
+                                <ul class="category__list">
+                                    <li class="category__item">
+                                        <a class="category__item-link" href="">
+                                            Tất cả sản phẩm
+                                        </a>
+                                    </li>
+                                    <li class="category__item has-child">
+                                        <a href="" class="category__item-link">
+                                            Ohui
+                                            <i class="category__item-icon fas fa-chevron-right"></i>
+                                        </a>
+                                        <ul class="category__list-child" >
+                                            <li class="category__item-child">
+                                                <a href="" class="category__item-child-link">
+                                                    Ohui Thefirst Tái Sinh
+                                                </a>
+                                            </li>
+                                            <li class="category__item-child">
+                                                <a href="" class="category__item-child-link"> Ohui Dưỡng Trắng</a>
+                                            </li>
+                                            <li class="category__item-child">
+                                                <a href="" class="category__item-child-link">Ohui Prime Advancer</a>
+                                            </li>
+                                            <li class="category__item-child">
+                                                <a href="" class="category__item-child-link">Ohui Dưỡng Ẩm</a>
+                                            </li>
+                                            <li class="category__item-child">
+                                                <a href="" class="category__item-child-link">Ohui Chống Lão Hóa</a>
+                                            </li>
+                                            <li class="category__item-child">
+                                                <a href="" class="category__item-child-link">Ohui Make Up</a>
+                                            </li>
+                                            <li class="category__item-child">
+                                                <a href="" class="category__item-child-link">Ohui Chống Nắng</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li class="category__item has-child">
+                                        <a href="" class="category__item-link">
+                                            Whoo
+                                            <i class="category__item-icon fas fa-chevron-right"></i>
+                                        </a>
+                                        <ul class="category__list-child" >
+                                            <li class="category__item-child">
+                                                <a href="" class="category__item-child-link">
+                                                    Whoo Bichup
+                                                </a>
+                                            </li>
+                                            <li class="category__item-child">
+                                                <a href="" class="category__item-child-link"> Whoo Dưỡng Ẩm</a>
+                                            </li>
+                                            <li class="category__item-child">
+                                                <a href="" class="category__item-child-link">Whoo Dưỡng Trắng Trị Nám</a>
+                                            </li>
+                                            <li class="category__item-child">
+                                                <a href="" class="category__item-child-link">Whoo cấp nước chống oxy hóa</a>
+                                            </li>
+                                            <li class="category__item-child">
+                                                <a href="" class="category__item-child-link">Whoo Make Up</a>
+                                            </li>
+                                            <li class="category__item-child">
+                                                <a href="" class="category__item-child-link">Whoo Tái Sinh</a>
+                                            </li>
+                                            <li class="category__item-child">
+                                                <a href="" class="category__item-child-link">Whoo Chống Nắng</a>
+                                            </li>
+                                            <li class="category__item-child">
+                                                <a href="" class="category__item-child-link">Whoo Spa</a>
+                                            </li>
+                                            <li class="category__item-child">
+                                                <a href="" class="category__item-child-link">Whoo Chống Lão Hóa</a>
+                                            </li>
+                                            <li class="category__item-child">
+                                                <a href="" class="category__item-child-link">Whoo Hoàn Lưu Cao</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li class="category__item has-child">
+                                        <a href="" class="category__item-link">
+                                            Su:m37
+                                            <i class="category__item-icon fas fa-chevron-right"></i>
+                                        </a>
+                                        <ul class="category__list-child" >
+                                            <li class="category__item-child">
+                                                <a href="" class="category__item-child-link">
+                                                    Su:m37 Tái Sinh
+                                                </a>
+                                            </li>
+                                            <li class="category__item-child">
+                                                <a href="" class="category__item-child-link"> Sm:m37 Chống Lão Hóa </a>
+                                            </li>
+                                            <li class="category__item-child">
+                                                <a href="" class="category__item-child-link">Sm:m37 Dưỡng Trắng </a>
+                                            </li>
+                                            <li class="category__item-child">
+                                                <a href="" class="category__item-child-link">Su:m37 cấp ẩm water full </a>
+                                            </li>
+                                            <li class="category__item-child">
+                                                <a href="" class="category__item-child-link">Su:m37 Chống Nắng Sun Away</a>
+                                            </li>
+                                            <li class="category__item-child">
+                                                <a href="" class="category__item-child-link">Su:m37 Make Up</a>
+                                            </li>
+                                            <li class="category__item-child">
+                                                <a href="" class="category__item-child-link">Su:m37 Làm Sạch </a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li class="category__item has-child">
+                                        <a href="" class="category__item-link">
+                                            Set mini
+                                            <i class="category__item-icon fas fa-chevron-right"></i>
+                                        </a>
+                                        <ul class="category__list-child">
+                                            <li class="category__item-child">
+                                                <a href="" class="category__item-child-link">
+                                                    Set Ohui Mini
+                                                </a>
+                                            </li>
+                                            <li class="category__item-child">
+                                                <a href="" class="category__item-child-link"> Set Whoo Mini</a>
+                                            </li>
+                                            <li class="category__item-child">
+                                                <a href="" class="category__item-child-link">Set Su:m37 Mini</a>
+                                            </li>
+            
+                                        </ul>
+            
+                                    </li>
+                                    <li class="category__item">
+                                        <a href="" class="category__item-link">
+                                            Thực phẩm chức năng
+                                        </a>
+                                    </li>
+                                    <li class="category__item">
+                                        <a href="" class="category__item-link"> Dịch vụ
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
                         </div>
-                        
+                        <!-- Category -->
+                        <div class="hero-banner col l-10 c-12 m-12">
+                           <div class="row no-gutter">
+                            <div class="hero-banner__list col l-8 m-12 c-12">
+                                <a href="" class="hero-banner__item" style="background-image: url(/assets/img/hero-banner1.png);">
+                                </a>
+                                <a href="" class="hero-banner__item" style="background-image: url(/assets/img/hero-banner2.png);">
+                                </a>  <a href="" class="hero-banner__item" style="background-image: url(/assets/img/hero-banner3.png);">
+                                </a>  <a href="" class="hero-banner__item" style="background-image: url(/assets/img/hero-banner4.png);">
+                                </a>  <a href="" class="hero-banner__item" style="background-image: url(/assets/img/hero-banner5.png);">
+                                </a>
+                            </div>
+                            <div class="sm-banner col l-4 c-0 m-0">
+                                <div class="sm-banner__list">
+                                    <div class="sm-banner__item sm-banner__primary">
+                                        <a href="" class="sm-banner__item-link">    
+                                            <img src="https://img.abaha.vn/photos/resized/850x500/83-1595935028-myphamohui-lgvina.png" alt="" class="sm-banner__img">
+                                        </a>
+                                    </div>
+                                    <div class="sm-banner__item sm-banner__secondary">
+                                        <a href="" class="sm-banner__item-link">    
+                                            <img src="https://img.abaha.vn/photos/resized/850x500/83-1595935028-myphamohui-lgvina.png" alt="" class="sm-banner__img">
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                           </div>
+                        </div>
                     </div>
                 </div>
             </div>
-            <!-- Category -->
             <div class="test">
 
             </div>
@@ -547,13 +577,41 @@
         crossorigin="anonymous"></script>
     <script>
 
-        $('.content').slick({
-            dots: true,
-            infinite: true,
-            speed: 300,
-            slidesToShow: 1,
-            adaptiveHeight: true
-        });
+    $('.hero-banner__list').slick({
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    autoplay: true,
+    autoplaySpeed: 2000,
+    responsive: [
+    {
+      breakpoint: 1024,
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        infinite: true,
+      }
+    },
+    {
+      breakpoint: 600,
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        infinite: true,
+      }
+    },
+    {
+      breakpoint: 480,
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        infinite: true,
+      }
+    }
+    // You can unslick at a given breakpoint now by adding:
+    // settings: "unslick"
+    // instead of a settings object
+  ]
+    });
 
     </script>
 </body>

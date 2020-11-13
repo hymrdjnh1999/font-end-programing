@@ -1,0 +1,49 @@
+/* Mobile */
+@media (max-width: 739px){
+    .sm-hidden{
+        display : none;
+    }
+    .header__search{
+        position: fixed;
+        background: #fff;
+        top: calc(0% - 34px);
+        
+    }
+    .header__search-history{
+        width: 100%;
+    }
+    .bottom-header{
+        position: relative;
+        height: 50px;
+        z-index: 2;
+    }
+    .bottom-header__wrapper {
+        height: 100%;
+        width: 100%;
+    }
+    .header__logo{
+        height: 34px;
+        width: 34px;
+    }
+    .header__logo-img{
+        width:100%;
+    }
+
+    .top-header {
+        display : flex;
+        justify-content: flex-start
+    }
+}
+
+
+
+/* Tablet  */
+@media (min-width : 740px) and (max-width :1023px){
+    .wide {
+        width: 644px;
+    }
+    .m-hidden{
+        display : none;
+    }
+
+}
