@@ -6,13 +6,13 @@
 .header__navbar{
     height: var(--header__navbar-height);
     background-color: #333E48;
-
 }
-.grid.header__navbar-wrapper{
+
+.header__navbar-wrapper{
     display : flex;
     align-items: center;
-    height: 100%;
     justify-content : space-between;
+    height: var(--header__navbar-height);
 }
 .header__navbar-list {
     padding-left : 0;
@@ -42,6 +42,7 @@
     align-items: center;
     position: relative;
     cursor: pointer;
+    -webkit-tap-highlight-color: transparent;
 }
 
 .header__navbar-item-img{
@@ -241,7 +242,7 @@
     box-shadow:  0 1px 1px rgba(0, 0, 0, 0.09);
 }
 
-.grid.header__with-search-wrap{
+.header__with-search-wrap{
     display : flex;
     align-items: center;
     height: var(--header__navbar-with-search-height);
@@ -256,6 +257,7 @@
 .header__navbar-logo-link{
     display : flex;
     justify-content:center;
+    -webkit-tap-highlight-color: transparent;
     
 }
 
@@ -270,6 +272,7 @@
     align-items: center;
     padding : 3px;
     box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+    background-color: white;
 }
 
 .header__search-input-wrap{
@@ -325,6 +328,7 @@
     position: relative;
     height: 34px;
     cursor: pointer;
+    background-color: white;
 }
 
 .header__search-item-link{
@@ -412,6 +416,7 @@
     background-color: #333E48;
     cursor: pointer;
     border-radius : 2px;
+    outline: none;
 }
 .header__search-btn:hover {
     background-color: #434E5A;
@@ -458,6 +463,7 @@
 }
 /* cart info */
 .header__cart-cart {
+    -webkit-tap-highlight-color: transparent;
     z-index: 2;
 }
 
@@ -531,6 +537,7 @@ div.header__cart-info::before{
     font-weight: 400;
     color: rgba(0, 0, 0, 0.26);
     padding: 10px 10px 5px 10px;
+    background-color: white;
 }
 
 .header__cart-product-list{
@@ -626,6 +633,7 @@ div.header__cart-info::before{
 
 .header__cart-product-info{
     padding:  10px 10px 0 10px;
+    background-color: white;
 }
 
 .header__cart-product-info-item{
@@ -648,6 +656,7 @@ div.header__cart-info::before{
     display : flex;
     justify-content:flex-end;
     border-radius: 4px;
+    background-color:white;
 }
 
 .header__cart-btn-view-cart{
@@ -675,6 +684,7 @@ div.header__cart-info::before{
 
 div.home-page__body{
     padding-top: 20px;
+    overflow: hidden;
 }
 
 .hero{
@@ -763,10 +773,6 @@ div.home-page__body{
     display :block;
 }
 
-div.hero__banner{
-    position: relative;
-}
-
 .hero__banner-wrap{
     display : flex;
     position: relative;
@@ -785,6 +791,7 @@ div.hero__banner{
 }
 
 .hero__banner-carousel-link{
+    -webkit-tap-highlight-color: transparent;
     display : block;
 }
 
@@ -828,6 +835,7 @@ div.hero__banner{
     top: 50%;
     transform: translateY(-50%);
     z-index: 1;
+    -webkit-tap-highlight-color: transparent;
 }
 
 .btn-icon{
@@ -877,6 +885,7 @@ div.hero__banner{
     color : var(--text-color);
     position: relative;
     padding : 10px 0;
+    user-select: none;
 }
 
 .offers__body{
@@ -911,9 +920,11 @@ div.hero__banner{
     width: 100%;
     height: auto;
     display : block;
+    user-select: none;
 }
 .offers__item-img{
     position: relative;
+    -webkit-tap-highlight-color: transparent;
 
 }
 .offers__item-sales-value,.offers__item-btn-group{
@@ -944,6 +955,7 @@ div.hero__banner{
 }
 
 .offers__item-btn{
+    -webkit-tap-highlight-color: transparent;
     height : 30px;
     width : 30px;
     border-radius : 2px;
@@ -992,6 +1004,7 @@ div.hero__banner{
 .offers__item:hover .offers__item-title{
     color : #FF9600;
 }
+
 .offers__item-title{
     text-decoration: none;
     color : var(--text-color);
@@ -1066,6 +1079,7 @@ div.hero__banner{
     border-radius : calc(var(--height) / 2);
     height: var(--height);
     background-color: var(--orange-color);
+    height: 100%;
 }
 
 .offers__item-sales-times{
@@ -1168,6 +1182,7 @@ div.hero__banner{
 .product{
     margin-top: 30px;
     user-select: none;
+    -webkit-tap-highlight-color: transparent;
 }
 
 .product__body {
@@ -1394,6 +1409,7 @@ div.hero__banner{
     justify-content:center;
     cursor: pointer;
     background-color: white;
+    -webkit-tap-highlight-color: transparent;
 }
 
 .news__header-btn:first-child {
@@ -1588,4 +1604,8 @@ div.hero__banner{
 p.firm__address{
     margin: 0;
     margin-bottom: 20px;
+}
+
+.mobile__header-nav{
+    display : none;
 }

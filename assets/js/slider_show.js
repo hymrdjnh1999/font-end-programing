@@ -17,7 +17,14 @@ $('.hero__banner-carousels').slick({
     autoplaySpeed: 1500,
     nextArrow: $('.banner__btn--middle.next-btn'),
     prevArrow: $('.banner__btn--middle.prev-btn'),
-    infinite: true
+    infinite: true,
+    responsive: [{
+      breakpoint: 739,
+     settings: {
+      slidesToShow: 1,
+      slidesToScroll: 1,
+     }
+    }]
 
   });
   // news 
