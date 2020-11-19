@@ -900,7 +900,9 @@ div.home-page__body{
     flex :  0 0 37%;
     width: 37%;
 }
-
+.offers__body-left .offers__item{
+    padding : 0 30px;
+}
 .offers__item{
     padding : 0 20px;
     overflow: hidden;
@@ -1199,14 +1201,15 @@ div.home-page__body{
 
 
 .product__body-left{
-    padding : 30px;
+    padding : 15px 30px 30px 30px;
     border-right: 1px solid rgba(0, 0, 0,0.09);
 }
 
 .product__item{
     display : block;
     text-decoration: none;
-    box-shadow: 0 1px 1px rgba(0, 0,0,0.19)
+    box-shadow: 0 1px 1px rgba(0, 0,0,0.19);
+    margin-top: 15px;
 }
 
 .product__item:hover{
@@ -1362,7 +1365,7 @@ div.home-page__body{
 .product__body-right{
     flex : 0 0 63%;
     width: 63%;
-    padding: 30px;
+    padding: 15px 30px 30px 30px;
 }
 
 
