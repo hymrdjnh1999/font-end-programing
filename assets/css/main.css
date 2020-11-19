@@ -892,6 +892,7 @@ div.home-page__body{
     padding : 40px 0;
     background-color: white;
     display :flex;
+    margin-bottom : 40px;
 }
 
 .offers__body-left,.product__body-left{

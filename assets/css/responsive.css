@@ -257,6 +257,11 @@
     .product__item{
         margin-top: 15px;
     }
+
+    .news__card{
+        width: unset;
+        padding : 0 20px;
+    }
     
 }
 
@@ -554,4 +559,28 @@
     .mobile__category-item-icon{
         font-size : 0.8rem;
     }
+}
+
+@media (min-width:1024px) and (max-width:1200px){
+    .container{
+        width: 100%;
+    }
+    .header__navbar-wrapper{
+        padding : 0 15px;
+    }
+    .spacing {
+        padding : 0 15px;
+    }
+    .hero__banner-carousels{
+        padding-left : 15px;
+    }
+    .news__card{
+        padding : 0 4px;
+        width: unset;
+        margin : 0;
+    }
+    .product__item{
+        margin-bottom : 15px;
+    }
+
 }
