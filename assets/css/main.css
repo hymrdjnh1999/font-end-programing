@@ -567,12 +567,14 @@ div.header__cart-info::before{
 
 .header__cart-product-details{
     margin-left : 10px;
+    width: 100%;
    
 }
 
 .header__cart-product-details-wrap{
     display : flex;
-
+    width: 100%;
+    justify-content:space-between;
 }   
 
 .header__cart-product-name{
@@ -1664,7 +1666,7 @@ p.firm__address{
     background-color: white;
     max-height: 0;
     overflow: hidden;
-    transition: max-height 0.4s ease-out;
+    transition: max-height 0.5s ease-out;
 }
 #mobile__search-checkbox:checked ~ .header__search{
     transform : translateY(0%);
