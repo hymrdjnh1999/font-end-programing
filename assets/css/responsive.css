@@ -377,6 +377,8 @@
         flex-direction: column;
         width: 100%;
         padding: 0 10px;
+        border-right: 0;
+        border-bottom : 1px solid rgba(0,0,0,0.08)
     }
     .offers__item--primary .offers__item-img{
         width: 100%;
@@ -411,9 +413,7 @@
     .countdown__item{
         margin-left: 4px;
     }
-    .offers__item-content{
-        border-bottom : 1px solid rgba(0, 0, 0, 0.1);
-    }
+
 
     .offers__body{
         padding: 20px;
@@ -463,8 +463,6 @@
     .bottom__footer-item:last-child{
         margin-top: 15px;
     }
-    
-    
 
     .top__footer{
         padding-left: 20px;
@@ -502,63 +500,7 @@
         width: 100%;
         top: calc(var(--header-height) - 34px);
     }
-    #mobile__search-checkbox:checked ~ .header__search{
-        transform : translateY(0%);
-    }
-    .news__card{
-        margin-left: 0;
-        margin-right: 0;
-        width: 100%;
-        /* padding-; */
-    }
- 
-    #mobile__header-nav:checked ~ .mobile__header-nav-wrap{
-        display : block;
-
-    }
-    #mobile__header-nav:checked ~ .mobile__header-nav{
-        transform: translateX(0);
-    }
-    #mobile__header-nav:checked + .modal__overlay{
-        display : block;
-        animation: fadeIn 0.3s linear;
-    }
-    .mobile__header-nav{
-        position : fixed;
-        top: calc(0% + var(--header-height));
-        transform: translateX(-100%);
-        width: 80%;
-        background-color:white;
-        height: 100%;
-        z-index: 4;
-        left: 0;
-        transition: transform 0.3s ease;
-        display: flex;
-        flex-direction: column;
-        overflow-x: hidden;
-        overflow-y: auto;
-    }
-
-    .mobile__category-item-link{
-        display : flex;
-        justify-content:space-between;
-        align-items: center;
-        padding: 12px 15px;
-        text-decoration: none;
-        color: var(--text-color);
-        font-size: 1.2rem;
-    }
-    .mobile__category-item-icon--down{
-        display : none;
-    }
-
-    .mobile__header-nav{
-        display : block;
-    }
-
-    .mobile__category-item-icon{
-        font-size : 0.8rem;
-    }
+    
 }
 
 @media (min-width:1024px) and (max-width:1200px){
@@ -582,5 +524,8 @@
     .product__item{
         margin-bottom : 15px;
     }
+
+
+   
 
 }

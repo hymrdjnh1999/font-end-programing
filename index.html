@@ -14,6 +14,7 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css">
+  <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
   <link rel="stylesheet" href="/assets/css/responsive.css">
   <script src="https://kit.fontawesome.com/c0378fb81e.js" crossorigin="anonymous"></script>
 </head>
@@ -326,56 +327,127 @@
             <label for="mobile__header-nav" class="modal__overlay">
             </label>
             <div class="mobile__header-nav">
-              <ul class="mobile__category-list">
-                <li class="mobile__category-item"><a href="" class="mobile__category-item-link">
-                    Tất cả sản phẩm
-                  </a>
-                </li>
-                <li class="mobile__category-item">
-                  <a href="" class="mobile__category-item-link">
-                    <span>Ohui</span>
-                    <i class="fas fa-chevron-right mobile__category-item-icon"></i>
-                  </a>
-                </li>
-                <li class="mobile__category-item">
-                  <a href="" class="mobile__category-item-link">
-                    <span>Whoo</span>
-                    <i class="fas fa-chevron-right mobile__category-item-icon"></i>
-                  </a>
-                </li>
-                <li class="mobile__category-item">
-                  <a href="" class="mobile__category-item-link">
-                    <span>Su:m37</span>
-                    <i class="fas fa-chevron-right mobile__category-item-icon"></i>
-                  </a>
-                </li>
-                <li class="mobile__category-item">
-                  <a href="" class="mobile__category-item-link">
-                    <span>Set mini</span>
-                    <i class="fas fa-chevron-right mobile__category-item-icon"></i>
-                  </a>
-                </li>
-                <li class="mobile__category-item">
-                  <a href="" class="mobile__category-item-link">
-                    <span>Thực phẩm chức năng</span>
-                  </a>
-                </li>
-                <li class="mobile__category-item">
-                  <a href="" class="mobile__category-item-link">
-                    <span>Dịch vụ</span>
-                  </a>
-                </li>
-                <li class="mobile__category-item">
-                  <a href="" class="mobile__category-item-link">
-                    <span>Tin Tức</span>
-                  </a>
-                </li>
-                <li class="mobile__category-item">
-                  <a href="" class="mobile__category-item-link">
-                    <span>Liên Hệ</span>
-                  </a>
-                </li>
-              </ul>
+              <div class="mobile__header-nav-wrapper">
+                <ul class="mobile__category-list">
+                  <li class="mobile__category-item"><a href="" class="mobile__category-item-link">
+                      Tất cả sản phẩm
+                    </a>
+                  </li>
+                  <li class="mobile__category-item mobile__category-item--has-child">
+                    <div class="mobile__category-item-link accordion">
+                      <span>Ohui</span>
+                      <i class="fas fa-chevron-right mobile__category-item-icon "></i>
+                    </div>
+                    <ul class="mobile__category-item-child-list panel">
+                      <li class="mobile__category-item-child-item"><a href=""
+                          class="mobile__category-child-item-link">Ohui Thefirst Tái Sinh </a></li>
+                      <li class="mobile__category-item-child-item"><a href=""
+                          class="mobile__category-child-item-link">Ohui Dưỡng Trắng</a></li>
+                      <li class="mobile__category-item-child-item"><a href=""
+                          class="mobile__category-child-item-link">Ohui Prime Advancer</a></li>
+                      <li class="mobile__category-item-child-item"><a href=""
+                          class="mobile__category-child-item-link">Ohui Dưỡng Ẩm</a></li>
+                      <li class="mobile__category-item-child-item"><a href=""
+                          class="mobile__category-child-item-link">Ohui Chống Lão Hóa</a></li>
+                      <li class="mobile__category-item-child-item"><a href=""
+                          class="mobile__category-child-item-link">Ohui Make Up</a></li>
+                      <li class="mobile__category-item-child-item"><a href=""
+                          class="mobile__category-child-item-link">Ohui Chống Nắng</a></li>
+
+                    </ul>
+                  </li>
+                  <li class="mobile__category-item">
+                    <div class="mobile__category-item-link accordion">
+                      <span>Whoo</span>
+                      <i class="fas fa-chevron-right mobile__category-item-icon"></i>
+                    </div>
+                    <ul class="mobile__category-item-child-list panel">
+                      <li class="mobile__category-item-child-item"><a href=""
+                          class="mobile__category-child-item-link">Whoo Bichup </a></li>
+                      <li class="mobile__category-item-child-item"><a href=""
+                          class="mobile__category-child-item-link">Whoo Dưỡng Ẩm</a></li>
+                      <li class="mobile__category-item-child-item"><a href=""
+                          class="mobile__category-child-item-link">Whoo Dưỡng Trắng Trị Nám</a></li>
+                      <li class="mobile__category-item-child-item"><a href=""
+                          class="mobile__category-child-item-link">Whoo cấp nước chống oxy hóa</a></li>
+                      <li class="mobile__category-item-child-item"><a href=""
+                          class="mobile__category-child-item-link">Whoo Tái Sinh</a></li>
+                      <li class="mobile__category-item-child-item"><a href=""
+                          class="mobile__category-child-item-link">Whoo Make Up</a></li>
+                      <li class="mobile__category-item-child-item"><a href=""
+                          class="mobile__category-child-item-link">Whoo Chống Nắng</a></li>
+                      <li class="mobile__category-item-child-item"><a href=""
+                          class="mobile__category-child-item-link">Whoo Spa</a></li>
+                      <li class="mobile__category-item-child-item"><a href=""
+                          class="mobile__category-child-item-link">Whoo Chống Lão Hóa</a></li>
+                      <li class="mobile__category-item-child-item"><a href=""
+                          class="mobile__category-child-item-link">Whoo Hoàn Lưu Cao</a></li>
+
+                    </ul>
+                  </li>
+                  <li class="mobile__category-item">
+                    <div class="mobile__category-item-link accordion">
+                      <span>Su:m37</span>
+                      <i class="fas fa-chevron-right mobile__category-item-icon"></i>
+                    </div>
+                    <ul class="mobile__category-item-child-list panel">
+                      <li class="mobile__category-item-child-item"><a href=""
+                          class="mobile__category-child-item-link">Su:m37 Tái Sinh </a></li>
+                      <li class="mobile__category-item-child-item"><a href=""
+                          class="mobile__category-child-item-link">Sm:m37 Chống Lão Hóa </a></li>
+                      <li class="mobile__category-item-child-item"><a href=""
+                          class="mobile__category-child-item-link">Sm:m37 Dưỡng Trắng </a></li>
+                      <li class="mobile__category-item-child-item"><a href=""
+                          class="mobile__category-child-item-link">Su:m37 cấp ẩm water full </a></li>
+                      <li class="mobile__category-item-child-item"><a href=""
+                          class="mobile__category-child-item-link">Su:m37 Làm Sạch </a></li>
+                      <li class="mobile__category-item-child-item"><a href=""
+                          class="mobile__category-child-item-link">Su:m37 Chống Nắng Sun Away</a></li>
+                      <li class="mobile__category-item-child-item"><a href=""
+                          class="mobile__category-child-item-link">Su:m37 Make Up</a></li>
+                    </ul>
+                  </li>
+                  <li class="mobile__category-item">
+                    <div class="mobile__category-item-link accordion">
+                      <span>Set mini</span>
+                      <i class="fas fa-chevron-right mobile__category-item-icon"></i>
+                    </div>
+                    <ul class="mobile__category-item-child-list panel">
+                      <li class="mobile__category-item-child-item"><a href=""
+                          class="mobile__category-child-item-link">Set Ohui Mini </a></li>
+                      <li class="mobile__category-item-child-item"><a href=""
+                          class="mobile__category-child-item-link">Set Whoo Mini</a></li>
+                      <li class="mobile__category-item-child-item"><a href=""
+                          class="mobile__category-child-item-link">Set Su:m37 Mini</a></li>
+                    </ul>
+                  </li>
+
+                </ul>
+                <ul class="mobile__category-list">
+                  <li class="mobile__category-item">
+                    <a href="" class="mobile__category-item-link">
+                      <span>Thực phẩm chức năng</span>
+                    </a>
+                  </li>
+                  <li class="mobile__category-item">
+                    <a href="" class="mobile__category-item-link">
+                      <span>Dịch vụ</span>
+                    </a>
+                  </li>
+                </ul>
+                <ul class="mobile__category-list">
+                  <li class="mobile__category-item">
+                    <a href="" class="mobile__category-item-link">
+                      <span>Tin Tức</span>
+                    </a>
+                  </li>
+                  <li class="mobile__category-item">
+                    <a href="" class="mobile__category-item-link">
+                      <span>Liên Hệ</span>
+                    </a>
+                  </li>
+                </ul>
+              </div>
             </div>
             <!-- cart layout -->
             <div class="header__cart">
@@ -421,7 +493,8 @@
                           </div>
                           <div class="header__cart-product-details">
                             <div class="header__cart-product-details-wrap">
-                              <span class="header__cart-product-name">Set phấn phủ Ohui Ultimate Brightening Varnishing Pact</span>
+                              <span class="header__cart-product-name">Set phấn phủ Ohui Ultimate Brightening Varnishing
+                                Pact</span>
                               <div class="header__cart-product-left">
                                 <span class="header__cart-product-price">
                                   1.080.000đ
@@ -442,7 +515,8 @@
                           </div>
                           <div class="header__cart-product-details">
                             <div class="header__cart-product-details-wrap">
-                              <span class="header__cart-product-name">Bộ kem đặc trị vùng mắt Ohui Age Recovery Wrinkle Cut Serum.</span>
+                              <span class="header__cart-product-name">Bộ kem đặc trị vùng mắt Ohui Age Recovery Wrinkle
+                                Cut Serum.</span>
                               <div class="header__cart-product-left">
                                 <span class="header__cart-product-price">
                                   2.070.000đ
@@ -463,7 +537,7 @@
                           </div>
                           <div class="header__cart-product-details">
                             <div class="header__cart-product-details-wrap">
-                              <span class="header__cart-product-name"> Set sữa rửa mặt  Ohui Prime Gel Cleanser</span>
+                              <span class="header__cart-product-name"> Set sữa rửa mặt Ohui Prime Gel Cleanser</span>
                               <div class="header__cart-product-left">
                                 <span class="header__cart-product-price">
                                   1.035.000đ
@@ -1142,16 +1216,16 @@
                 </div>
                 <div class="middle__banner-wrap">
 
-                  <a href="" class="middle__banner-link" width="610px">
+                  <a href="" class="middle__banner-link" width="50%">
                     <img src="/assets/img/middle-slide1.png" alt="" class="middle__banner-img" />
                   </a>
-                  <a href="" class="middle__banner-link" width="610px">
+                  <a href="" class="middle__banner-link" width="50%">
                     <img src="/assets/img/middle-slide2.png" alt="" class="middle__banner-img">
                   </a>
-                  <a href="" class="middle__banner-link" width="610px">
+                  <a href="" class="middle__banner-link" width="50%">
                     <img src="/assets/img/middle-slide3.png" alt="" class="middle__banner-img">
                   </a>
-                  <a href="" class="middle__banner-link" width="610px">
+                  <a href="" class="middle__banner-link" width="50%">
                     <img src="/assets/img/middle-slide4.png" alt="" class="middle__banner-img">
                   </a>
                 </div>
@@ -1274,7 +1348,8 @@
                         </div>
                         <div class="col l-4 m-6 c-6">
                           <a href="" class="product__item ">
-                            <div class="product__item-img" style="background-image: url(/assets/img/ohui-r2.png);border : 1px solid rgba(0,0,0,0.09)" >
+                            <div class="product__item-img"
+                              style="background-image: url(/assets/img/ohui-r2.png);border : 1px solid rgba(0,0,0,0.09)">
                               <div class="product__sales-percent">
                                 <div class="product__sales-percent-value">10%</div>
                                 <div class="product__sales-percent-title">GIẢM</div>
@@ -1319,7 +1394,8 @@
                         </div>
                         <div class="col l-4 m-6 c-6">
                           <a href="" class="product__item ">
-                            <div class="product__item-img" style="background-image: url(/assets/img/ohui-r3.png);border: 1px solid rgba(0,0,0,0.09);">
+                            <div class="product__item-img"
+                              style="background-image: url(/assets/img/ohui-r3.png);border: 1px solid rgba(0,0,0,0.09);">
                               <div class="product__sales-percent">
                                 <div class="product__sales-percent-value">10%</div>
                                 <div class="product__sales-percent-title">GIẢM</div>
@@ -2593,10 +2669,9 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"
     integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg=="
     crossorigin="anonymous"></script>
-  <script src="/assets/js/slider_show.js">
-
-  </script>
-  <script src="./assets/js/simplyCountdown.min.js"></script>
+  <script src="/assets/js/slider_show.js"></script>
+  <script src="/assets/js/app.js"></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
 </body>
 
 </html>
